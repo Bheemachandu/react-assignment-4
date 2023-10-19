@@ -17,6 +17,7 @@ class TeamMatches extends Component {
     const {params} = match
     const {id} = params
     const id1 = id.slice(1)
+    console.log(id1)
     const response = await fetch(`https://apis.ccbp.in/ipl/${id1}`)
     const data = await response.json()
     const updatedList = {
@@ -35,7 +36,7 @@ class TeamMatches extends Component {
     return (
       <div className="TeamMatchesContainer">
         {isLoadingData ? (
-          <div data-testid="loader">
+          <div testid="loader">
             <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
           </div>
         ) : (
