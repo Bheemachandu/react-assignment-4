@@ -1,0 +1,13 @@
+.LatestMatchContainer {
+  background-color: #1e293b;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 30px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.container3 {
+  text-align: right;
+}

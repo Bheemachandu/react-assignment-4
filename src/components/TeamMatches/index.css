@@ -1,0 +1,14 @@
+.TeamMatchesContainer {
+  background-color: #a4261d;
+  min-height: 100vh;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.bannerImage {
+  width: 96vw;
+  height: 40vh;
+}

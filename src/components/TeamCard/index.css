@@ -1,0 +1,22 @@
+.TeamCardContainer {
+  display: flex;
+  border: 1px solid #ffffff;
+  background-color: #ffffff33;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  height: 150px;
+  width: 400px;
+}
+
+.teamlogo {
+  width: 60px;
+  margin-right: 20px;
+}
+
+.teamName {
+  color: white;
+  font-size: 25px;
+  align-self: center;
+  text-align: center;
+}
